@@ -58,6 +58,11 @@ public class BasicType {
         System.out.println("int强制类型转换为byte后的值等于"+b);
 	}
 	
+	static void PrintVar() {
+		var type=1;
+		System.out.println("jdk10新加入的自动推测类型，var type="+type);
+	}
+	
 	public static void main(String[] args) {
 		BasicTypePrint();
 		
@@ -66,6 +71,8 @@ public class BasicType {
 		PrintConst();
 		
 		PrintChange();
+		
+		PrintVar();
 	}
 
 }
