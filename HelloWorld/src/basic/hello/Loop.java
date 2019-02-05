@@ -21,5 +21,12 @@ public class Loop {
 			System.out.println("do-while—≠ª∑d="+d);
 			d++;
 		}while(d<5);
+		
+		int[] arr=new int[] {0,1,2,3,4,5,6,7,8,9};
+		for(int tmp:arr)
+		{
+			System.out.print("["+tmp+"], ");
+		}
+		System.out.println();
 	}
 }
