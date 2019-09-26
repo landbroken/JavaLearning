@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Helloplugin
+Bundle-SymbolicName: com.lyl.helloplugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.lyl.helloplugin.Activator
+Bundle-Vendor: LYL
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.lyl.helloplugin
+Bundle-ActivationPolicy: lazy
