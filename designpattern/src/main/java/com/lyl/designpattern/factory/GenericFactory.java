@@ -30,5 +30,4 @@ public class GenericFactory<T> implements Factory<T> {
 		}
         return null;
 	}
-
 }

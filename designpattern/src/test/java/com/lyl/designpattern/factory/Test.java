@@ -8,8 +8,5 @@ public class Test {
         Car audi = carFactory.getInstance(Audi.class);
         benz.run();
         audi.run();
-        
-        Data data = new FData();
-        data.setData(benz);
     }
 }
